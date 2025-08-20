@@ -5,7 +5,7 @@ from imblearn.over_sampling import SMOTE
 
 def load_data(path):
     '''Loads the data and returns Dataframe'''
-    return pd.read_csv()
+    return pd.read_csv(path)
 
 def scale_features(df):
     '''Scales 'Time' and 'Amount' columns '''
