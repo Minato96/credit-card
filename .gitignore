@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+
+# Data (too large for Git)
+data/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Saved models
+*.joblib
